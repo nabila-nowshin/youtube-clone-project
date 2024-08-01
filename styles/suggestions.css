@@ -1,0 +1,47 @@
+.suggestion{
+    display:flex ;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    
+}
+
+.suggestion::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  /* Track */
+  .suggestion::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .suggestion::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .suggestion::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.suggestion div{
+    background-color:#F2F2F2;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.suggestion div.active{
+    background-color: black;
+    color: white;
+}
+.suggestion div:hover{
+    background-color: #E5E5E5;
+}
